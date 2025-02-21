@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
             //Tap bar (Pestañas)
             TabBar(tabs: myTabs),
             //Tab bar View (Contenido de pestañas)
-            const Expanded(
+            Expanded(
               child: TabBarView(
                 children: [
                 DonutTab(),
